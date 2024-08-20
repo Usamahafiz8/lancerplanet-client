@@ -51,7 +51,7 @@ export default function FreelancerServices() {
                   <Slider images={service.images.split('|')} />
                 </div>
                 <div className="serviceHeader">
-                  <img src={avatar === 'no-image.png' ? noImage : `https://lancer-planet-api.adaptable.app//ProfilePic/${avatar}`} alt="Service" />
+                  <img src={avatar === 'no-image.png' ? noImage : `https://lancer-planet-api.adaptable.app/ProfilePic/${avatar}`} alt="Service" />
                   <span>{localStorage.getItem('userInfo') && JSON.parse(localStorage.getItem('userInfo')).username}</span>
                 </div>
                 <div className="serviceBody">

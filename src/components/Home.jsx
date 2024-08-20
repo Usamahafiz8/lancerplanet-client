@@ -134,7 +134,7 @@ export default function Home() {
                                 <img src={aboutUs} alt="About Us Image" />
                             </div>
                             <div className="about-us-info" data-aos="fade-right">
-                                At Work Wonders, our team is dedicated to making sure that every client is completely satisfied with the work we do. Whether you're looking for a new website, marketing materials, or any other type of service, we'll work with you to understand your needs and goals, and then create a customized solution that meets your unique requirements.
+                                At Lancer Planets, our team is dedicated to making sure that every client is completely satisfied with the work we do. Whether you're looking for a new website, marketing materials, or any other type of service, we'll work with you to understand your needs and goals, and then create a customized solution that meets your unique requirements.
                             </div>
                         </div>
                     </div>
@@ -175,11 +175,11 @@ export default function Home() {
                     Lancer Planet
                 </div>
                 <p className="footer-body">
-                    Work Wonders is a leading provider of freelance services, connecting talented individuals with clients who need their skills and expertise. From website design and development to writing and marketing, our team has the knowledge and experience to help you succeed.
+                    Lancer Planets is a leading provider of freelance services, connecting talented individuals with clients who need their skills and expertise. From website design and development to writing and marketing, our team has the knowledge and experience to help you succeed.
                 </p>
                 <div className="footer-footer">
                     <div className="copyright">
-                        Copyright Work Wonders ©2023 | All Rights Reserved
+                        Copyright Lancer Planets ©2023 | All Rights Reserved
                     </div>
                     <div className="socials">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">

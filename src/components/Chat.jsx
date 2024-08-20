@@ -51,7 +51,7 @@ export default function Chat({ type }) {
                 <div className="messages">
                   {data?.userConversation?.map(conversation =>
                     <div key={conversation._id} className={selectedMessage != conversation._id ? "messageSection" : "messageSection active"} onClick={() => setSelectedMessage(conversation._id)}>
-                      <img src={conversation.avatar == "no-image.png" ? noImage : `https://lancer-planet-api.adaptable.app//ProfilePic/${conversation.avatar}`} alt="test image" />
+                      <img src={conversation.avatar == "no-image.png" ? noImage : `https://lancer-planet-api.adaptable.app/ProfilePic/${conversation.avatar}`} alt="test image" />
                       <div className="messageUserInfo">
                         <div className="messageUserName">{conversation.username}</div>
                       </div>

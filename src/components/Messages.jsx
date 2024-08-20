@@ -118,7 +118,7 @@ export default function Message({ selectedMessage }) {
                 messages?.messages?.withInfo &&
                 <>
                     <div className="selectedMessageHeader">
-                        <img src={messages?.messages?.withInfo?.avatar == "no-image.png" ? noImage : `https://lancer-planet-api.adaptable.app//ProfilePic/${messages?.messages?.withInfo?.avatar}`} alt="image test" />
+                        <img src={messages?.messages?.withInfo?.avatar == "no-image.png" ? noImage : `https://lancer-planet-api.adaptable.app/ProfilePic/${messages?.messages?.withInfo?.avatar}`} alt="image test" />
                         <span>{messages?.messages?.withInfo?.username}</span>
 
                     </div>
