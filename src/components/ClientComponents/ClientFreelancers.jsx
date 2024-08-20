@@ -82,7 +82,7 @@ export default function ClientServices() {
                   <Slider images={service.images.split('|')} />
                 </div>
                 <div className="serviceHeader">
-                  <img src={service.userInfo.image === 'no-image.png' ? noImage : `https://lancer-planet-api.adaptable.app//ProfilePic/${service.userInfo.image}`} alt="Profile Picture" />
+                  <img src={service.userInfo.image === 'no-image.png' ? noImage : `https://lancer-planet-api.adaptable.app/ProfilePic/${service.userInfo.image}`} alt="Profile Picture" />
                   <span>{service.userInfo.username}</span>
                 </div>
                 <div className="serviceBody">

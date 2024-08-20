@@ -100,7 +100,7 @@ export default function ClientOrders() {
                                             <Slider images={order.serviceInfo.images.split('|')} />
                                         </div>
                                         <div className="serviceHeader">
-                                            <img src={order.serviceUserInfo.image === 'no-image.png' ? noImage : `https://lancer-planet-api.adaptable.app//ProfilePic/${order.serviceUserInfo.image}`} alt="" />
+                                            <img src={order.serviceUserInfo.image === 'no-image.png' ? noImage : `https://lancer-planet-api.adaptable.app/ProfilePic/${order.serviceUserInfo.image}`} alt="" />
                                             <span>{order.serviceUserInfo.username}</span>
                                         </div>
                                         <div className="serviceBody">

@@ -15,7 +15,7 @@ export default function Slider({ images }) {
             pagination={{ clickable: true }}
         >
             {images.map((imageSrc, i) => <SwiperSlide key={i}>
-                <img src={`https://lancer-planet-api.adaptable.app//ServicePic/${imageSrc}`} alt="" />
+                <img src={`https://lancer-planet-api.adaptable.app/ServicePic/${imageSrc}`} alt="" />
             </SwiperSlide>)}
         </Swiper>
     )

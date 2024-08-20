@@ -17,7 +17,7 @@ export default function Testimonial({ data, role }) {
                     navigation
                 >
                     {data?.map((testimonial) => <SwiperSlide key={testimonial.clientId}>
-                        <img src={testimonial.clientAvatar != "no-image.png" ? `https://lancer-planet-api.adaptable.app//ProfilePic/${testimonial.clientAvatar}` : noImage} alt="Client Pic" />
+                        <img src={testimonial.clientAvatar != "no-image.png" ? `https://lancer-planet-api.adaptable.app/ProfilePic/${testimonial.clientAvatar}` : noImage} alt="Client Pic" />
                         <div className="info">
                             <div className="cardHeader">
                                 {testimonial.clientUsername}
@@ -37,7 +37,7 @@ export default function Testimonial({ data, role }) {
                     navigation
                 >
                     {data?.map((testimonial, i) => <SwiperSlide key={i}>
-                        <img src={testimonial.freelancerAvatar != "no-image.png" ? `https://lancer-planet-api.adaptable.app//ProfilePic/${testimonial.freelancerAvatar}` : noImage} alt="Client Pic" />
+                        <img src={testimonial.freelancerAvatar != "no-image.png" ? `https://lancer-planet-api.adaptable.app/ProfilePic/${testimonial.freelancerAvatar}` : noImage} alt="Client Pic" />
                         <div className="info">
                             <div className="cardHeader">
                                 {testimonial.freelancerUsername}

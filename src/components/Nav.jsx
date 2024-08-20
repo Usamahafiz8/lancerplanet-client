@@ -62,7 +62,7 @@ export default function Nav() {
                                 <button><HashLink to="/login">Sign in</HashLink></button>
                                 :
                                 <div className="menu">
-                                    <img src={avatar === 'no-image.png' ? noImage : `https://lancer-planet-api.adaptable.app//ProfilePic/${avatar}`} onClick={e => dropdown.current.classList.toggle('active')} alt="Profile Picture" />
+                                    <img src={avatar === 'no-image.png' ? noImage : `https://lancer-planet-api.adaptable.app/ProfilePic/${avatar}`} onClick={e => dropdown.current.classList.toggle('active')} alt="Profile Picture" />
                                     <div ref={dropdown} className="dropdown">
                                         <div className="link" onClick={e => handleProfile()}>Dashboard</div>
                                         <div className="link" onClick={e => handleLogOut()}>Log Out</div>
